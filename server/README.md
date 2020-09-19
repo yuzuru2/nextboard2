@@ -15,4 +15,10 @@ $ npm run build
 $ node dist/src
 ```
 
+## デプロイ
+
+```bash
+npx vercel --prod
+```
+
 3000番ポートで立ち上がる
