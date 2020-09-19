@@ -3,7 +3,7 @@
 ## .env
 
 ```text
-MONGODB=MongoDbの接続情報
+MONGODB=MongoDBの接続情報
 NODE_ENV=development
 ```
 
