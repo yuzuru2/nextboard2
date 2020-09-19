@@ -1,5 +1,12 @@
 ## サーバサイド
 
+## .env
+
+```text
+MONGODB=MongoDbの接続情報
+NODE_ENV=development
+```
+
 ## コマンド
 
 ```bash
