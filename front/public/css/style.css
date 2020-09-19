@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+/* bootstrapの謎の右の余白を消す */
+#app {
+  overflow: hidden;
+}
+
+/* bootstrap5で「.row」が変わったのでv4の「row」を定義 */
+.row2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+section {
+  width: 70%;
+  padding-left: 30px;
+}
+
+aside {
+  width: 30%;
+}
+
+.sumaho {
+  display: none;
+}
+
+/* スマホ用 */
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  aside {
+    display: none;
+    width: 0%;
+  }
+
+  .row2 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .sumaho {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/src",
+    "sourceMap": false,
+    "strict": true,
+    "removeComments": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/test/*"]
+}
